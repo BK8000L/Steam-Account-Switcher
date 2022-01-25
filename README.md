@@ -64,9 +64,9 @@ Note that this is really only required if you have multiple Steam installation a
 Normally we close the currently running any Steam instance running from the same folder we are trying to start it from.
 This parameter prevent this behaviour from occuring. I'm not quite sure how could this be used and why, but it exists.
 
-- **/SteamParams**
+- **/SteamParams="-no-browser start steam://open/minigameslist"**
 In case you would like to run Steam with specific parameters.
-I don't see any use for this, but it exists.
+Useful if you want to run Steam without the web browser components and reduce RAM usage.
 
 - **/LaunchCommand="C:\Path\to\some\app\launcher.exe"**
 If you want Steam Account Switcher to run an application other than Steam.
